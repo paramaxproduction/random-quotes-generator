@@ -1,0 +1,75 @@
+body {
+    line-height: 1.5;
+    font-family: "Montserrat";
+    background-color: #222;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.jumbotron h1 {
+    font-weight: bold;
+    color: white;
+}
+
+.jumbotron p {
+    font-size: 20px;
+    color: white;
+}
+
+.jumbotron {
+    position: relative;
+    background: url("../img/background.jpg") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.quote {
+    background: rgba(255, 0, 204, 1);
+    border-color: rgba(204, 204, 204, 1);
+    color: white;
+    font-size: 14px;
+    border-radius: 8px;
+    border-width: 0px;
+}
+
+.quote:hover {
+    background: rgba(242, 97, 223, 1);
+    border-color: rgba(173, 173, 173, 1);
+    color: white;
+}
+
+.quote:active, .quote:focus {
+    background: rgba(255, 0, 204, 1);
+    border-color: rgba(224, 224, 224, 1);
+    color: white;
+}
+
+.author {
+    color: white;
+}
+
+.tweet {
+    background: #4099FF;
+    border-color: rgba(204, 204, 204, 1);
+    color: white;
+    font-size: 14px;
+    border-radius: 8px;
+    border-width: 0px;
+}
+
+.tweet:hover {
+    background: #00FFFF;
+    border-color: rgba(173, 173, 173, 1);
+    color: white;
+}
+
+.tweet:active, .tweet:focus {
+    background: #4099FF;
+    border-color: rgba(224, 224, 224, 1);
+    color: white;
+}
